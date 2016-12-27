@@ -22,9 +22,15 @@ docker build -t csalexbaptista/apache_webserver:latest .
 * Run the new image
 
 ```
-docker run -ti -p 80:80 csalexbaptista/apache_webserver:latest /bin/bash
+docker run --name debian7_webserver -d -ti -p 80:80 csalexbaptista/apache_webserver:latest
+```
+
+* Access bash
+
+```
+docker exec -ti debian7_webserver /bin/bash
 ```
 
 ### Troubleshooting
 
-* Doc [Docker] ()
+* Doc [Docker] (https://forums.docker.com/)
