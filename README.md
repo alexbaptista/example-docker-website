@@ -3,7 +3,7 @@ Instructions for Project (example Docker Website)
 
 ## About
 
-Docker Debian Wheezy (7) image, customized to be a Web server (Apache), aims to display a simple html that displays shortcuts to the Twitter project repositories `https://github.com/twitter/twitter.github`
+Docker Debian Wheezy (7) image, customized to be a Web server (Apache), aims to display a simple html that displays shortcuts to the Twitter project repositories `https://github.com/twitter/twitter.github.com`
 
 ## Setting up your local machine
 
