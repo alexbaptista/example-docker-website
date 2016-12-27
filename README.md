@@ -10,7 +10,7 @@ Docker Debian Wheezy (7) image, customized to be a Web server (Apache), aims to 
 * Install [Docker] (https://www.docker.com/products/overview)
 * Clone this repo `https://github.com/cs-alex-baptista/example-docker-website`
 
-## Configure your environment
+## <i class="icon-download"></i> Configure your environment
 
 * Access the project and build the Dockerfile
 
