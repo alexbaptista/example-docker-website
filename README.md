@@ -31,6 +31,6 @@ docker run --name debian7_webserver -d -ti -p 80:80 csalexbaptista/apache_webser
 docker exec -ti debian7_webserver /bin/bash
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 * Doc [Docker] (https://forums.docker.com/)
