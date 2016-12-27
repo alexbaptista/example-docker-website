@@ -19,7 +19,7 @@ CD example-docker-website
 docker build -t csalexbaptista/apache_webserver:latest .
 ```
 
-* Run the new image
+* Run the new image and access from your local machine `localhost:80`
 
 ```
 docker run --name debian7_webserver -d -ti -p 80:80 csalexbaptista/apache_webserver:latest
