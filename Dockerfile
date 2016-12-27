@@ -11,3 +11,4 @@ LABEL description="Webserver"
 VOLUME /var/www/
 COPY content /var/www/
 EXPOSE 80
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
