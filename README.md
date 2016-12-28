@@ -1,14 +1,20 @@
+![Docker](https://rada.re/r/img/os-docker.png)
+
 Instructions for Project (example Docker Website)
 ========================================
 
 ## About
 
-Docker Debian Wheezy (7) image, customized to be a Web server (Apache), aims to display a simple html that displays shortcuts to the Twitter project repositories `https://github.com/twitter/twitter.github.com`
+Docker Debian Wheezy (7) image, customized to be a Web server (Apache):
+
+> aims to display a simple html that displays shortcuts to the Twitter project repositories `https://github.com/twitter/twitter.github.com`
 
 ## Setting up your local machine
 
-* Install [Docker] (https://www.docker.com/products/overview)
-* Clone this repo `https://github.com/cs-alex-baptista/example-docker-website`
+Requirements | Links |
+------------ | -------------
+Install Docker | https://www.docker.com/products/overview
+Clone this repo | https://github.com/cs-alex-baptista/example-docker-website
 
 ## Configure your environment
 
