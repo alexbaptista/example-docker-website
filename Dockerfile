@@ -6,7 +6,7 @@ ENV APACHE_RUN_USER="www-data"
 ENV APACHE_RUN_GROUP="www-data"
 ENV APACHE_LOG_DIR="/var/log/apache2"
 
-LABEL description="Webserver"
+LABEL description="Webserver1"
 
 VOLUME /var/www/
 COPY content /var/www/
