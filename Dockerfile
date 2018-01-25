@@ -8,6 +8,7 @@ ENV APACHE_LOG_DIR="/var/log/apache2"
 
 LABEL description="Webserver"
 
+USER www-data
 VOLUME /var/www/
 COPY content /var/www/
 EXPOSE 80
